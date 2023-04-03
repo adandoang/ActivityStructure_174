@@ -34,7 +34,11 @@ int main() {
 
 	for (int i = 0; i < 3; i++)
 	{
-
+		cout << "\nNim: " << mhs[i].nim;
+		cout << "\nNama: " << mhs[i].nama;
+		cout << "\ndesa: " << mhs[i].alamat.desa;
+		cout << "\nkota: " << mhs[i].alamat.kota;
+		cout << "\nUmur: " << mhs[i].umur;
 	}
 
 }
