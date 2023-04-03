@@ -3,9 +3,8 @@ using namespace std;
 
 struct AlamatDetail
 {
-	string desa:
+	string desa;
 	string kota;
-
 };
 
 struct Mahasiswa {
@@ -14,3 +13,21 @@ struct Mahasiswa {
 	AlamatDetail alamat;
 	int umur;
 };
+
+int main() {
+
+	Mahasiswa mhs;
+
+	cout << "Masukan nim: ";
+	cin >> mhs.nim;
+	cout << "Masukan nama: ";
+	cin >> mhs.nama;
+	cout << "Alamat: " << endl;
+	cout << "\tNama desa: ";
+	cin >> mhs.alamat.desa;
+	cout << "\tNama kota: ";
+	cin >> mhs.alamat.kota;
+	cout << "Masukan umur; ";
+	cin >> mhs.umur;
+
+}
