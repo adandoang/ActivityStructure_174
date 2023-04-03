@@ -31,5 +31,10 @@ int main()
 	cout << "\nalamat: " << mhs1.nim;
 	cout << "\numur: " << mhs1.umur;
 
+	cout << "\nnim: " << mhs2.nim;
+	cout << "\nnama: " << mhs2.nama;
+	cout << "\nalamat: " << mhs2.nim;
+	cout << "\numur: " << mhs2.umur;
+
 
 }
