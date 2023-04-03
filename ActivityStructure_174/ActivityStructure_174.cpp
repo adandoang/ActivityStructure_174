@@ -36,5 +36,4 @@ int main()
 	cout << "\nalamat: " << mhs2.nim;
 	cout << "\numur: " << mhs2.umur;
 
-
 }
